@@ -1,0 +1,438 @@
+img{
+    width: 200px;
+}
+
+h2{
+    font-size: 20px;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: overline rgb(144, 3, 97);
+}
+
+.card-img-top{
+    width: 200px;
+    text-align: center;
+    border-top-right-radius: 50%;
+}
+
+.card{
+    text-align: center;
+    border: none;
+}
+
+span{
+    display: flex;
+    border: none;
+    justify-content: center;
+}
+
+.navbar-toggler-icon{
+    width: 20px;
+    height: 30px;
+    background-color: #91386f; 
+    border: none;
+}
+
+.navbar-toggler{
+    border: none;
+    border-radius: 3px;
+    background-color: #91386f; 
+    font-size: 0px;
+}
+
+.navbar-toggler:focus{
+    background-color: none;
+    border: none;
+}
+
+.navbar-toggler:active{
+    background-color: #91386f; 
+}
+
+h6{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+h6 + p{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#myLargeModalLabel3{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#myLargeModalLabel4{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#myLargeModalLabel5{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#myLargeModalLabel6{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#myLargeModalLabel7{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#myLargeModalLabel8{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+#myLargeModalLabel9{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.ping{
+    color: rgb(71, 70, 70);
+    text-decoration: none;
+}
+
+.ping:hover{
+    color: violet;
+    text-decoration: underline violet;
+}
+
+.modal-body h6{
+font-size: 16px;
+text-align:  start;
+color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+}
+
+h6 + .lead{
+    font-size: 14px;
+    font-family:  'Raleway', sans-serif;
+    line-height: 1.6rem;
+}
+
+.lead.mead{
+    font-size: 14px;
+    font-family:  'Raleway', sans-serif;
+    line-height: 1.6rem;
+}
+
+#ok{
+    color: white;
+   background-color: blueviolet;
+   border: none;
+   font-family: 'Raleway', sans-serif;
+}
+
+#ok:hover{
+    color: blueviolet;
+    background-color: white;
+    border: 1px solid blueviolet;
+}
+
+#ok:active{
+    outline: none;
+}
+
+#ok:focus{
+    outline: 4px solid white;
+}
+
+.drip{
+    width: 120px;
+}
+
+article{
+    margin-top: 100px;
+}
+
+#baddo{
+    width: 19px;
+    color: rgb(108, 108, 108);
+}
+
+#kot{
+    color: rgb(108, 108, 108);
+    margin-left: 5px;
+}
+#some{
+    margin-top: 60px;
+}
+
+#bala{
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#rala{
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#aspo{
+    color: rgb(248, 19, 172);
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#aspo:hover{
+    color: rgb(241, 183, 94);
+    font-family: 'Roboto', sans-serif;
+}
+
+#asp{
+    color: rgb(248, 19, 172);
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#asp:hover{
+    color: rgb(241, 183, 94);
+    font-family: 'Roboto', sans-serif;
+}
+
+#asp:active{
+    color: rgb(241, 183, 94);
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(211, 231, 241);
+}
+#dopet{
+    background-color: white;
+}
+
+.navbar-toggler-icon{
+    color: red;
+}
+ul li{
+    padding: 2px 0px;
+list-style: none;    
+}
+
+h5{
+    font-size: 18px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+margin-left: 30px;
+font-weight: 500;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: palevioletred;
+    text-decoration: none;
+}
+
+@media (max-width:767.3px) and (min-width:550px){
+    #bala{
+    display: none;
+    }
+    
+    article{
+    margin-top: 0px;
+    }
+    
+    }
+    
+    @media (max-width:1600px) and (min-width:767.2px){
+        #rala{
+            display: none;
+        }
+        .pops{
+            width: 50px;
+        }
+        
+        #jooor{
+            position: fixed;
+            right: 80px;
+            bottom: 10px;
+        }
+        }
+    
+    @media (max-width:780px){
+        img{
+            width: 180px;
+        }
+        .pops{
+            width: 50px;
+        }
+        
+        #jooor{
+            position: fixed;
+            right: 40px;
+            bottom: 10px;
+        }
+    
+    }
+
+    @media (max-width:580px){
+        #bala{
+            display: none;
+        }
+        
+        article{
+            margin-top: 0px;
+        }
+    
+        .pops{
+            width: 40px;
+        }
+        
+        #jooor{
+            position: fixed;
+            right: 0px;
+            bottom: 10px;
+        }
+        }
+    
+    #dodo{
+        text-align: start;
+        border: none;
+        padding: 5px 0px;
+        font-size: 9px;
+        color: rgb(169, 169, 169);
+    }
+    
+    #dodo:hover{
+    color: 	rgb(135, 206, 235);
+    }
+    
+    
+    #dodo:active{
+        color: 	rgb(135, 206, 235);
+        }
+    
+    i{
+        border: none;
+        background-color: white;
+        padding: 8px 0px;
+        padding-left: 8px;
+        padding-right: 19px;
+        text-align: center;
+        align-items: center;
+        border-radius: 50%;
+        margin: auto;
+    }
+    
+    #pli{
+        color: rgb(169, 169, 169);
+        -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+    box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+    margin-left: 9px;
+    }
+    
+    #oli{
+        color: rgb(169, 169, 169);
+        -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+    box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+    }
+    
+    #oli:hover{
+        color: 	rgb(135, 206, 235);
+    }
+    
+    #pli:hover{
+    color: 	rgb(135, 206, 235);
+    }
+    
+    #plo{
+        color: rgb(169, 169, 169);
+        -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+    box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+    margin-left: 5px;
+    }
+    #plo:hover{
+       
+    color: 	rgb(240, 53, 53);
+    }
+    .xoxo{
+        text-align: start;
+        border: none;
+        padding: 5px 0px;
+        font-size: 10px;
+        color: rgb(169, 169, 169);
+    }
+    
+    #bebe{
+        padding-left: 10px;
+        padding-right: 19px;
+        color: rgb(169, 169, 169);
+        -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+    box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+    }
+    
+    #bebe:hover{
+        color: 	rgb(135, 206, 235);
+    }
+    
+    @media (max-width:767px) and (min-width:500px){
+        .pops{
+            width: 40px;
+        }
+        
+        #jooor{
+            position: fixed;
+            right: 30px;
+            bottom: 10px;
+        }
+    
+    }
+    
+    @media (max-width:580px) and (min-width:120px){
+        #poll{
+            border: none;
+            text-align: start;
+            margin-left: -32px;
+        }
+        
+        h5{
+            margin-left: -0.5px;
+        }
+    }
+    
+    @media (max-width:916px) and (min-width:767px){
+        #jooor{
+            right: 2px;
+        }
+    }
+    @media (max-width:1070px) and (min-width:994px){
+        #jooor{
+            right: 2px;
+        }
+    }
+
+    @media (max-width:768px){
+        img{
+            width: 180px;
+        }
+    }
+
+    @media (max-width:700px){
+        h2{
+            margin-top: 10px;
+        }
+        }

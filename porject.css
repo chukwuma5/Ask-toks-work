@@ -1,0 +1,209 @@
+body{
+   /* background-image: url(https://asktoks.com/assets/bg.jpg);*/
+    background-image: linear-gradient(rgba(30, 28, 28, 0.7),rgba(5, 4, 4, 0.7)),url(https://asktoks.com/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 400px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white; 
+    transform: translate(0px, -10px);
+}
+
+.hope{
+    transition: transform 0.50s;
+}
+
+.hope:hover{
+    transform: scale(1.07);
+}
+
+.doped{
+    width: 95px;
+    transition: transform 0.50s;
+}
+
+#some{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: rgb(233, 3, 156)
+}
+
+.doped:hover{
+    transform: scale(1.07);
+}
+
+.normal{
+    width: 80px;
+    transition: transform 0.50s;
+ 
+}
+
+.normal:hover{
+    transform: scale(1.07);
+}
+
+figure{
+    text-align: center;
+}
+
+figure:hover{
+    text-align: center;
+}
+
+h5{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+#act{
+    display: none;
+}
+
+figure:hover h5{
+    color: red;
+    padding-top: -10px;
+}
+
+@media (max-width:780px){
+.hope{
+width: 159px;
+}
+
+.doped{
+    width: 75px;
+}
+
+.normal{
+    width: 62.7px;
+}
+
+img{
+    width: 150px;
+}
+
+}
+
+@media (max-width:580px){
+#containit{
+    display: none;
+}
+
+#act{
+    display: flex;
+    justify-content: center;
+}
+#yo{
+    margin-top: 30px;
+}
+#sope{
+    width: 192px;
+    padding: 0px 15px;
+    transition: transform 0.50s;
+    }
+
+    #sope:hover{
+        transform: scale(1.07);
+    }
+
+    #doer{
+        position: relative;
+    }
+
+    #doer h5{
+        position: absolute;
+ left: 70px;
+ top: 230px;
+ font-size: 13px;
+    }
+
+#doers h5{
+    position: absolute;
+    top: 230px;
+    font-size: 13px;
+}
+
+img{
+    width: 120px;
+}
+
+    #doerss h5{
+        position: absolute;
+ left: 20px;
+ top: 230px;
+ font-size: 13px;
+    }
+
+#hope{
+    width: 127px;
+    padding: 0px 30px;
+    transition: transform 0.50s;
+    }
+    #hope:hover{
+        transform: scale(1.07);
+    }
+
+    #nope{
+        width: 140px;
+        padding: 0px 30px;
+        transition: transform 0.50s;
+        font-size: 13px;
+    }
+    #nope:hover{
+        transform: scale(1.07);
+    }
+    body{
+  height: 100vh;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    #some{
+    margin-top: 15px;
+    }
+
+    .lead{
+        font-size: 13px;
+    }
+
+    h1{
+        font-size: 17px;
+        border: none;
+    }
+}
+
+@media (max-width:580px){ 
+.lead{
+font-size: 14px;
+}
+
+h1{
+    font-size: 18px;
+}
+
+}
+
+@media (max-width:480px){ 
+    h1{
+        transform: translate(0px, -3px);
+        font-size: 16px;
+    }
+}
+
+
+

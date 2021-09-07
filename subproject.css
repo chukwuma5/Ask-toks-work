@@ -1,0 +1,775 @@
+img{
+    width: 200px;
+}
+
+.ballon{
+width: 140px;
+padding: 20px;
+}
+
+.hop{
+    margin-top: -15px;
+}
+
+figure{
+    text-align: center;
+    
+}
+h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+#tune{
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cold{
+    position: relative;
+    perspective: 1500px;
+    height: 32vh;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.do{
+    color: white;
+}
+
+#description{
+    position: absolute;
+    width: 100%;
+    height: 255px;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+    z-index: -1;
+}
+.ballon{
+    border: none;
+    background-color: silver;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    transform-origin: 155px;
+    border-bottom: none;
+}
+#cold:hover .ballon{
+    transform:rotateY(82deg);
+}
+/*
+.pop{
+    position: fixed;
+    width: 60px;
+}
+
+#joor{
+    position: absolute;
+    display: flex;
+    right: 20px;
+    bottom: 190px;
+}
+/*
+.wrapper{
+    height: 330px;
+    width: 250px;
+    position: relative;
+    border: 3px solid burlywood;
+    perspective: 1000px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.description{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blueviolet;
+    z-index: -1;
+}*/
+
+#lower{
+    display: none;
+}
+
+h3{
+    background-color: white;
+    text-align: center;
+}
+
+.drip{
+    width: 120px;
+}
+
+article{
+    margin-top: 100px;
+}
+
+#baddo{
+    width: 19px;
+    color: rgb(108, 108, 108);
+}
+
+#kot{
+    color: rgb(108, 108, 108);
+    margin-left: 5px;
+}
+#some{
+    margin-top: 60px;
+}
+
+#bala{
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#rala{
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li{
+    padding: 2px 0px;
+list-style: none;    
+}
+
+h5{
+    font-size: 18px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+margin-left: 30px;
+font-weight: 500;
+
+}
+
+
+@media (max-width:992px) and (min-width:768px){
+    img{
+        width: 150px;
+    }
+    
+    .ballon{
+    width: 130px;
+    padding: 20px;
+    font-size: 12px;
+    }
+
+#cold{
+    position: relative;
+    perspective: 1000px;
+    height: 2vh;
+}
+
+#description{
+    position: absolute;
+    width: 90%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    color: white;
+    z-index: -1;
+}
+.ballon{
+    border: none;
+    background-color: silver;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    transform-origin: 130px;
+    border-bottom: none;
+}
+#cold:hover .ballon{
+    transform:rotateY(82deg);
+}
+
+#lower{
+    display: none;
+}
+}
+
+@media (max-width:767px){
+.hop{
+display: none;
+}   
+
+.ballon{
+width: 100px;
+    }
+
+    #tune{
+        display: none;
+    }
+
+    figure{
+        text-align: center;
+    }
+
+    span{
+        display: none;
+    }
+
+    .hop{
+        display: none;
+    }
+    
+    h4{
+        font-size: 12px;
+        font-weight: 450;
+    }
+    
+    #lower{
+        margin-top: 30px;
+        display: flex;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #mold{
+        transition: all 0.5s;
+        transform-origin: left;
+    }
+    
+    .ballon{
+        transition: all 0.5s;
+        transform-origin: right;
+    }
+    
+    #goy{
+        color: transparent;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    margin-top: -180px;
+    transition: color 0.99s;
+        border: none;
+    }
+
+    h4:hover + #goy {
+        color: lime;
+    }
+
+    h4:active +  #goy{
+        color: lime;
+    }
+
+    .poy{
+        color: transparent;
+        margin-top: -150px;
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        transition: color 0.99s;
+            border: none;
+    }
+    
+    h4:hover +  .poy{
+        color: lime;
+    }
+
+    h4:active +  .poy{
+        color: lime;
+    }
+    
+    #mold:hover .ballon{
+        transform:rotateY(-100deg);
+    }
+
+    .poys{
+        color: transparent;
+        margin-top: -150px;
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        transition: color 0.99s;
+            border: none;
+    }
+
+
+    h4:hover +  .poys{
+        color: red;
+    }
+
+    h4:active +  .poys{
+        color: red;
+    }
+
+    .so{
+        width: 130px;
+    }
+}
+
+@media (max-width:1600px) and (min-width:767px){
+#rala{
+    display: none;
+}
+
+.pop{
+    width: 70px;
+}
+
+#joor{
+    position: fixed;
+    right: 70px;
+    bottom: 5px;
+}
+}
+
+
+@media (max-width:550px){
+.hop{
+    display: none;
+}
+
+.ballon{
+    width: 120px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+#lower{
+    margin-top: 30px;
+}
+
+#mold{
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+.ballon{
+    transition: all 0.5s;
+    transform-origin: right;
+}
+
+#goy{
+    color: transparent;
+margin-top: -180px;
+display: flex;
+font-size: 15px;
+justify-content: center;
+transition: color 0.99s;
+    border: none;
+}
+.poy{
+    color: transparent;
+    margin-top: -150px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    transition: color 0.99s;
+        border: none;
+}
+
+h4:hover +  .poy{
+    color: lime;
+}
+
+h4:active +  .poy{
+    color: lime;
+}
+
+h4:hover +  #goy{
+    color: lime;
+}
+
+h4:active +  #goy{
+    color: lime;
+}
+
+
+.poys{
+    color: transparent;
+    margin-top: -150px;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    transition: color 0.99s;
+        border: none;
+}
+
+
+h4:hover +  .poys{
+    color: red;
+}
+
+h4:active +  .poys{
+    color: red;
+}
+
+
+#mold:hover .ballon{
+    transform:rotateY(-100deg);
+}
+
+.so{
+    width: 140px;
+}
+
+}
+
+@media (max-width:994px) and (min-width:790px){
+    #cold{
+        position: relative;
+        perspective: 1000px;
+        height: 33vh;
+    }
+    
+    #description{
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: palevioletred;
+        color: blueviolet;
+        z-index: -1;
+    }
+    .ballon{
+        border: none;
+        background-color: silver;
+        box-sizing: border-box;
+        transition: all 0.5s;
+        transform-origin: 130px;
+        border-bottom: none;
+    }
+    #cold:hover .ballon{
+        transform:rotateY(82deg);
+    }
+
+    h3{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:300px) {
+    .ballon{
+        width: 90px;
+    }
+
+    #goy{
+        font-size: 10px;
+    }
+    .poy{
+        font-size: 10px;
+    }
+    .poys{
+        font-size: 10px;
+    }
+    .so{
+        width: 120px;
+    }
+
+}
+
+@media (max-width:767px) and (min-width:550px){
+        .hop{
+            display: none;
+        }
+        
+        .ballon{
+            width: 120px;
+        }
+        
+        h4{
+            font-size: 12px;
+        }
+        
+        #lower{
+            margin-top: 30px;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        #mold{
+            transition: all 0.5s;
+            transform-origin: left;
+        }
+        
+        .ballon{
+            transition: all 0.5s;
+            transform-origin: right;
+        }
+        
+        
+        #goy{
+            color: transparent;
+        margin-top: -180px;
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        transition: color 0.99s;
+            border: none;
+        }
+        .poy{
+            color: transparent;
+            margin-top: -150px;
+            display: flex;
+            font-size: 15px;
+            justify-content: center;
+            transition: color 0.99s;
+                border: none;
+        }
+
+        h4:hover +  .poy{
+            color: lime;
+        }
+        
+        h4:active +  .poy{
+            color: lime;
+        }
+        h4:hover +  #goy{
+            color: lime;
+        }
+
+        h4:active +  #goy{
+            color: lime;
+        }
+        
+        #mold:hover .ballon{
+            transform:rotateY(-100deg);
+        }
+
+        .so{
+            width: 120px;
+        }
+
+        .poys{
+            color: transparent;
+            margin-top: -150px;
+            display: flex;
+            font-size: 15px;
+            justify-content: center;
+            transition: color 0.99s;
+                border: none;
+        }
+    
+    
+        h4:hover +  .poys{
+            color: red;
+        }
+    
+        h4:active +  .poys{
+            color: red;
+        }
+
+#bala{
+display: none;
+}
+
+article{
+    margin-top: 0px;
+}
+
+}
+
+@media (max-width:580px){
+    #bala{
+        display: none;
+    }
+    
+    article{
+        margin-top: 0px;
+    }
+    .so{
+        width: 120px;
+    }
+    
+    .pop{
+        width: 70px;
+    }
+    
+    #joor{
+        position: fixed;
+        right: 0px;
+        bottom: 5px;
+    }
+    }
+
+#dodo{
+    text-align: start;
+    border: none;
+    padding: 5px 0px;
+    font-size: 9px;
+    color: rgb(169, 169, 169);
+}
+
+#dodo:hover{
+color: 	rgb(135, 206, 235);
+}
+
+
+#dodo:active{
+    color: 	rgb(135, 206, 235);
+    }
+
+i{
+    border: none;
+    background-color: white;
+    padding: 8px 0px;
+    padding-left: 8px;
+    padding-right: 19px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#pli{
+    color: rgb(169, 169, 169);
+    -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+margin-left: 8px;
+}
+
+#oli{
+    color: rgb(169, 169, 169);
+    -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+}
+
+#oli:hover{
+    color: 	rgb(135, 206, 235);
+}
+
+#pli:hover{
+color: 	rgb(135, 206, 235);
+}
+
+#plo{
+    color: rgb(169, 169, 169);
+    -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+margin-left: 5px;
+}
+#plo:hover{
+   
+color: 	rgb(240, 53, 53);
+}
+.xoxo{
+    text-align: start;
+    border: none;
+    padding: 5px 0px;
+    font-size: 10px;
+    color: rgb(169, 169, 169);
+}
+
+#bebe{
+    padding-left: 10px;
+    padding-right: 19px;
+    color: rgb(169, 169, 169);
+    -webkit-box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43); 
+box-shadow: 9px 1px 22px -2px rgba(0,0,0,0.43);
+}
+
+#bebe:hover{
+    color: 	rgb(135, 206, 235);
+}
+
+@media (max-width:767px) and (min-width:500px){
+    .pop{
+        width: 70px;
+    }
+    
+    #joor{
+        position: fixed;
+        right: 30px;
+        bottom: 120px;
+    }
+    }
+
+@media (max-width:916px) and (min-width:767px){
+    #joor{
+        right: 2px;
+    }
+}
+@media (max-width:1050px) and (min-width:994px){
+    #joor{
+        right: 2px;
+    }
+}
+
+@media (max-width:580px) and (min-width:120px){
+#poll{
+    border: none;
+    text-align: start;
+    margin-left: -35px;
+}
+
+h5{
+    margin-left: -5px;
+}
+}
+/*
+.xoxo{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 5px 0px;
+    font-size: 10px;
+    color: red;
+}
+
+
+i{
+    border: 2px solid red;
+    padding: 10px 0px;
+    padding-left: 10px;
+    padding-right: 22px;
+    text-align: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#bebe{
+    padding-left: 12px;
+}
+
+
+
+
+
+

@@ -1,0 +1,171 @@
+/*animation work*/
+@keyframes spinner{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.bubbles img{
+width: 30px;
+animation: bubble 7s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.bubbles img:nth-child(1){
+animation-delay: 2s;
+}
+
+
+.bubbles img:nth-child(2){
+    animation-delay: 3s;
+    width: 5px;
+}
+
+.bubbles img:nth-child(3){
+    animation-delay: 1s;
+    width: 27px;
+}
+
+.bubbles img:nth-child(4){
+    animation-delay: 2s;
+    width: 10px;
+}
+
+.bubbles img:nth-child(5){
+    animation-delay: 0.29ms;
+    width: 20px;
+}
+
+.bubbles img:nth-child(6){
+    animation-delay: 2s;
+    width: 15px;
+}
+
+.bubbles img:nth-child(7){
+    animation-delay: 3s; 
+    width: 30px;  
+}
+
+
+/*spinner 2*/
+.spinner-2:before{
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: coral;
+    border-bottom-color: coral;
+    animation: spinner 0.7s ease infinite;
+}
+
+
+
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: rgb(9, 1, 42);
+}
+ 
+.lok{
+    background-color: rgb(24, 132, 226);
+    border: none;
+    width: 150px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.lok:hover{
+    background-color: rgb(53, 119, 186);
+    border: none;
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+    transform-origin: left;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:580px){
+    h1{
+        font-size: 20px;
+    }
+
+    .lok{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:300px){
+    h1{
+        font-size: 18px;
+    }
+
+    .lok{
+        font-size: 14px;
+    }
+}
+
+
