@@ -21,6 +21,7 @@ This is a page talking about children with autism and other challenging behaviou
   <img src="large4.png">  
 
   ##Small screen sizes ##
+  
     <img src="small1.png">  
 
   <img src="small2.png">  
