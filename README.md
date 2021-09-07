@@ -71,7 +71,7 @@ Learnt how to use bootstrap classes and terminologies, practised grids effectly,
  (CSS grids, flex-box, box-shadow, and float).I really had fun with these syntax.The grids helped out in the complex layout of sections, while the flex-box and float helped with the placing of items adequately to prevent work from collapsing.
    ``
 ## Huge shout-out
-Huge shout out to children out there suffering from autism, i love you.
+Huge shout out to all the children out there suffering from autism or other challanges, i love you.
 
    ## Licsense 
    This work is under [MIT] liscence. It's highly free and opensource to anyone to use.
