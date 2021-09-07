@@ -1,4 +1,4 @@
- ## Asktoks. a platform for children with autism.  
+ ## Asktoks. A platform for children with autism.  
 
  # Welcome!
 
