@@ -14,15 +14,14 @@ This is a page talking about children with autism and other challenging behaviou
 
  <img src="large1.png">
 
-  <img src="large2.png">      
+ <img src="large3.png">  
 
-  <img src="large3.png">  
-
-  <img src="large4.png">  
+ <img src="large4.png">  
 
   ##Small screen sizes ##
   
-   <img src="small1.png">  
+  <img src="small1.png">  
+   
   <img src="small2.png">  
 
   <img src="small3.png">
@@ -35,7 +34,7 @@ This is a page talking about children with autism and other challenging behaviou
 
 
  ## Gallery
-##Little mobile views too## 
+##Little mobile and laptop views too## 
    <img src="large4.png"> 
 
   <img src="small5.png"> 
@@ -51,6 +50,13 @@ This is a page talking about children with autism and other challenging behaviou
 
  ## My Challanges and lessons
 Learnt how to use bootstrap classes and terminologies, practised grids effectly, with equal distribution of sections.The javascript was quite tasking,but with careful concentration it was fun.
+
+##Hover-effects##
+Hover-effects are really useful syntax in css, it creates a little interaction between the user, coupled with a little animation, which improves the structure and movement on the website.
+
+##Hover-effects description##
+
+ <img src="large2.png">                
             
  ## Installations
    -For those Farmiliar with Git-hub you can clone the repo and pull to your local workplace to view.
