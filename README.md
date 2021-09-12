@@ -72,6 +72,10 @@ Hover-effects are really useful syntax in css, it creates a little interaction b
 
    -For the Font's[https://fonts.google.com/]
    
+   -For the picture designs[https://www.canva.com/]
+   
+   -For the picture sizes and editing[https://www.adobe.com/]
+   
  ## Best syntax Used
     ``CSS
  (CSS grids, flex-box, box-shadow, and float).I really had fun with these syntax.The grids helped out in the complex layout of sections, while the flex-box and float helped with the placing of items adequately to prevent work from collapsing.
